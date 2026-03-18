@@ -1,0 +1,25 @@
+{
+    "id": 1,
+    "name": "D-Link 24 Port Gigabit Switch",
+    "price": 800,
+    "condition": "Used - Good",
+    "description": "24‑Port D‑Link Gigabit switch with fast wired ports, silent fanless design, and energy‑efficient performance. Plug‑and‑play and ideal for small office networks.",
+	"images": [
+		"images/dlink1.jpeg",
+		"images/dlink2.jpeg"
+	]
+    "stock": 2
+}
+{
+    "id": 2,
+    "name": "ASUS AC1900 WiFi Router (RT-AC68U)",
+    "price": 300,
+    "condition": "Used - Good",
+    "description": "Dual Band Gigabit Wireless Internet Router, Gaming & Streaming, AiMesh Compatible, Included Lifetime Internet Security, Adaptive QoS, Parental Control",
+	"images": [
+		"images/ASUS1.jpeg",
+		"images/ASUS2.jpeg"
+		"images/ASUS3.jpeg"
+	]
+    "stock": 4
+}
