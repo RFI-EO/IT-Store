@@ -10,10 +10,10 @@ loadItems().then(items => {
     if (featured) {
         featured.innerHTML = items.slice(0, 3).map(item => `
             <div class="card">
-                <img src="${item.images[0]}" alt="${item.name}">
+                ${item.images[0]}
                 <h3>${item.name}</h3>
                 <p>R${item.price}</p>
-                <a class="btn" href="./product.html?id=${item.id}">View</a>
+                ./product.html?id=${item.id}View</a>
             </div>
         `).join('');
     }
@@ -25,10 +25,10 @@ loadItems().then(items => {
     if (list) {
         list.innerHTML = items.map(item => `
             <div class="card">
-                <img src="${item.images[0]}" alt="${item.name}">
+                ${item.images[0]}
                 <h3>${item.name}</h3>
                 <p>R${item.price}</p>
-                <a class="btn" href="./product.html?id=${item.id}">View</a>
+                ./product.html?id=${item.id}View</a>
             </div>
         `).join('');
     }
@@ -44,7 +44,7 @@ loadItems().then(items => {
 
         // Build gallery
         const gallery = item.images.map(img => `
-            <img src="${img}" class="gallery-img" alt="${item.name}">
+            ${img}
         `).join('');
 
         detail.innerHTML = `
@@ -54,7 +54,7 @@ loadItems().then(items => {
             <p><strong>Condition:</strong> ${item.condition}</p>
             <p><strong>Stock:</strong> ${item.stock}</p>
             <h3>R${item.price}</h3>
-            <a class="btn" href="https://wa.me/27814866251?text=Hi,%20I'm%20interested%20in%20${item.name}">
+            https://wa.me/27814866251?text=Hi,%20I
                 Buy via WhatsApp
             </a>
         `;
